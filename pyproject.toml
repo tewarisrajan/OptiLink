@@ -10,4 +10,4 @@ dependencies = [
 ]
 
 [tool.vercel]
-entrypoint = "optilink.server:app"
+entrypoint = "optilink.server.app:app"
