@@ -1,0 +1,13 @@
+[project]
+name = "optilink"
+version = "0.1.0"
+description = "OptiLink"
+requires-python = ">=3.9"
+
+dependencies = [
+    "fastapi",
+    "uvicorn",
+]
+
+[tool.vercel]
+entrypoint = "optilink.server:app"
